@@ -2,10 +2,10 @@
 
 A project looking at two subreddits to see the similarities about asking for dating advice and cooking recipes.
 
-Problem Statement
+# Problem Statement
 I was hired by a dating app company to look at an upcoming partnership with a food delivery app to see if they should create a colloboration event to see if people were just hungry for love or lunch. This gave me task of gathering some data from two popular subreddits, "askculinary" and "askdating" to look at the verbage used between both and to create a model that will help differentiate between love or food!
 
-About the API
+# About the API
 In 2023, Reddit proposed and underwent a series of changes to its API that greatly affected the ways that users, developers, and academics interact with and access the troves of data that its community freely creates.
 
 While the cost of data storage cannot be ignored, the monetization of its API has led to a shutdown of massively popular third-party and stifled important research in the social sciences (community formation/network analysis, hate speech, discourse analysis, etc.), cybersecurity (bot detection), and—importantly for us this week—the very large and diverse world of natural language processing (semantic analysis, translation, topic modeling, disambiguation, relationship extraction, etc).
@@ -14,7 +14,8 @@ While APIs like Pushshift that collected and stored Reddit's data from its incep
 
 We will do a walkthrough of how to access and submit a simple request to the Reddit API together.
 
-Project Notebook Walkthrough.
+# Project Notebook Walkthrough.
+
 The project is composed of a total of 3 files and a presentation.
 Code
 This file will contain a total of 3 notebooks.
