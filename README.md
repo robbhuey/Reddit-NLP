@@ -27,7 +27,9 @@ Data Collection Days
 This one will house all of the csv files that were gathered from the reddit API.
 Images
 This will contain images from the project that will be used for my presentation.
-Conclusion
+
+# Conclusion
+
 Out of all the models used for the problem statement the best results were provided by my Logistic Regression model boasting a 89.5% testing score. Giving me a pretty firm model in terms of seeing if you were asking for culinary advice or dating advice. In terms of just searching by solo words, the model works even better, but my main aim was to look at the phrases shared in each. By applying bigrams, the models had a harder time predicting what reddit the post was coming from. Coupled with the removal of key words from both subreddits we came to an even more balanced model, giving better insight on what may be leading into the differences between the two. This left me to use the other models to inference details about the way my problem statement was behaving.
 
 The KNN model showed that we did not follow a Bernoulli distribution and that our observations were not indepent of the other. This gave us a poor test score at 63.7% with a large overfitting on the training data. Sadly, the next model focusing on decision trees did not fair much better. With a gini score of 46.8%, we could see that almost half the time our decision tree would be missclassifying the next prediction. This led to an overfit model until we added the hyperparameters to control the overfitting. Once the hyperparameters were in place we no longer had an overfit model with both train and test scores placing at 62.5%, which ended up being right at our baseline point. This meant that tuning depth, splits, and sample data would effect the results of the model dramatically. Leaving us with the final two models I ran being bagging and AdaBoosting.
